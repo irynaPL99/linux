@@ -1,0 +1,30 @@
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 59.6M         0     59.6M   0% /dev
+#!/bin/bash
+USER=Iryna
+
+echo "Скрипт запускается из директории: $PWD"
+#echo "Скрипт запускается из:$(pwd)"
+   0 cd /tmp
+   1 nano file.txt
+   2 df -h | head -3 >> file.txt
+   3 cat file.txt 
+   4 ls -l
+   5 chmod g+wx file.txt 
+   6 ls -l
+   7 chmod o-r file.txt 
+   8 ls -l
+   9 nano myfirstbashscript.sh
+  10 ls
+  11 nano myfirstbashscript.sh
+  12 ls
+  13 ls -l
+  14 chmod u+x myfirstbashscript.sh  
+  15 ls -l
+  16 nano myfirstbashscript.sh
+  17 ./myfirstbashscript.sh 
+  18 nano myfirstbashscript.sh
+  19 ./myfirstbashscript.sh 
+  20 cat myfirstbashscript.sh >> file.txt 
+  21 history >> file.txt 
