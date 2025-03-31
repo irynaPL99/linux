@@ -1,0 +1,1008 @@
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        468M     0  468M   0% /dev
+tmpfs           477M     0  477M   0% /dev/shm
+#!/bin/bash
+USER=Iryna
+
+#echo "Скрипт запущен из директории: $PWD"
+echo "Скрипт запущен из: $(pwd)"
+   21  ivan4
+   22  env | grep PATH
+   23  mv /opt/chumak/script.sh home/ec2-user/bin/ivan4
+   24  mv /opt/chumak/script.sh /home/ec2-user/bin/ivan4
+   25  ivan4
+   26  ls
+   27  tree
+   28  script1
+   29  vasya
+   30  ./ruslanb 
+   31  env | grep PATH
+   32  ./permission_checker.sh 
+   33  cat permission_che
+   34  cat permission_checker.sh 
+   35  vim file.txt
+   36  vim 
+   37  cd /opt/131224-wdm/Rumiia/
+   38  ls -la
+   39  rm .Rumiia_ping_hw18.swp 
+   40  ls -la
+   41  vi hw18_ping.sh
+   42  chmod 744 hw18_ping.sh
+   43  ./hw18_ping.sh 
+   44  vi hw18_ping.sh
+   45  ./hw18_ping.sh 
+   46  vi hw18_ping.sh
+   47  ./hw18_ping.sh 
+   48  vi 2503.sh 
+   49  vi hw18_ping.sh
+   50  ./hw18_ping.sh 
+   51  vi hw18_ping.sh
+   52  vi hw18_ping.sh 
+   53  ./hw18_ping.sh 
+   54  vi try.sh
+   55  chmod 744 try.sh
+   56  ./744 try.sh
+   57  ./try.sh
+   58  cd /opt/240125-wde/cristina_buga/
+   59  nano /tmp/file.txt
+   60  nano /tmp/newfile.txt
+   61  df -h | head -n 3 >> /tmp/newfile.txt
+   62  cat /tmp/newfile.txt 
+   63  chmod 750 /tmp/newfile.txt 
+   64  ls -l
+   65  ls -la
+   66   ls -l /tmp
+   67  cd /opt/210225-ptm/petrov/
+   68  ls -la
+   69  cat home_work
+   70  cat home_work.txt 
+   71  cd /opt/210225-ptm/OLEKSANDR_P/
+   72  ls -la
+   73  chmod ugo
+   74  chmod a+x .process_management 
+   75  ls -la
+   76  chmod 700 .process_management 
+   77  ls -la
+   78  chmod 744 .process_management 
+   79  ls -la
+   80  cd /opt/210225-ptm/petrov/
+   81  ls -la
+   82  chmod 744 home_work
+   83  ls -la
+   84  nano script.sh
+   85  ls
+   86  nano script.y
+   87  ls -la
+   88  chmod 744 script.sh
+   89  ls -la
+   90  cat script.sh
+   91  nano script.sh
+   92  ./script.sh
+   93  nano script.sh
+   94  ./script.sh
+   95  ls -la
+   96  ls -la /opt/
+   97  chmod u+r,g+rw,o+r ruslanb
+   98  chmod u+s ruslanb
+   99  ls -l
+  100  chmod 744 ruslanb
+  101  chmod 740 ruslanb
+  102  chmod -R 744 ruslanb
+  103  ls -l
+  104  nano script,sh 
+  105  nano
+  106  ls -la
+  107  cd /opt/210225-ptm/lebedieva
+  108  nano script.sh
+  109  cd /opt/210225-ptm/vadym/
+  110  cd ..
+  111  ls -la
+  112  cd vadym/
+  113  ls -la
+  114  chmod u+s test.txt 
+  115  ls -la
+  116  chmod g+s test.txt 
+  117  ls -la
+  118  chmod g-wr,o-rw Hausaufgabe_6.sh 
+  119  ls -la
+  120  chmod 7 21.txt 
+  121  ls -la
+  122  chmod 77 21.txt 
+  123  ls -la
+  124  chmod 777 21.txt 
+  125  ls -la
+  126  chmod 0 21.txt 
+  127  ls -la
+  128  cd
+  129  pwd
+  130  cd vadym/
+  131  cd /opt/210225-ptm/vadym/
+  132  nano script.sh
+  133  bash Hausaufgabe_6.sh 
+  134  nano Hausaufgabe_6.sh 
+  135  nano script.sh 
+  136  env
+  137  nano script.sh 
+  138  chmod u+x script.sh 
+  139  ./script.sh 
+  140  nano script.sh 
+  141  ./script.sh 
+  142  nano script.sh 
+  143  ./script.sh 
+  144  nano script.sh 
+  145  ./script.sh 
+  146  nano script.sh 
+  147  ./script.sh 
+  148  nano script.sh 
+  149  ls -l
+  150  Hausaufgabe_6.sh
+  151  ./Hausaufgabe_6.sh
+  152  env
+  153  ls -la
+  154  bash Hausaufgabe_6.sh 
+  155  ls -la
+  156  export SERGIY-VARIABLE=210225-ptm
+  157  pwd
+  158  cd /opt/210225-ptm/mark
+  159  cat /opt/210225-ptm/mark
+  160  tree /opt/210225-ptm/mark
+  161  nano script.sh
+  162  /opt/mark/skript.sh
+  163  cd /opt/131224-wdm/Rumiia/
+  164  vi try.sh 
+  165  ./try.sh
+  166  vi try.sh 
+  167  ./hw18_ping.sh 
+  168  vi hw18_ping.sh 
+  169  ./hw18_ping.sh 
+  170  vi try.sh 
+  171  ./hw18_ping.sh 
+  172  cleatr
+  173  ./try.sh
+  174  env
+  175  env | grep NAME
+  176  cd /opt/210225-ptm/mark
+  177  cd /opt/131224-wdm/Rumiia/
+  178  ls -la
+  179  vi try.sh 
+  180  vi try.sh clear
+  181  ./hw18_ping.sh 
+  182  vi hw18_ping.sh 
+  183  pws
+  184  pwd
+  185  ls
+  186  ls -la
+  187  cd opt
+  188  cd /opt
+  189  ls -la
+  190  cd /091224-ptm
+  191  cd /opt/091224-ptm
+  192  ls -la
+  193  cd /opt/091224-ptm/ASeller
+  194  touch permission_checker.sh
+  195  nano permission_checker.sh
+  196  chmod +x permission_checker.sh
+  197  ./permission_checker.sh
+  198  cd /tmp
+  199  nano file.txt
+  200  nano
+  201  exit
+  202  cd /opt
+  203  ls -la
+  204  cd /opt/091224-ptm
+  205  ls -la
+  206  cd /opt/091224-ptm/ASeller
+  207  touch task_Ana.sh
+  208  chmod +x task_Ana.sh
+  209  nano task_Ana.sh
+  210  crontab -e
+  211  crontab -l
+  212  history > history.txt
+  213  tar -czvf archive_Ana.tar.gz history.txt
+  214  crontab -e
+  215  rm history.txt
+  216  rm archive_Ana.tar.gz
+  217  HISTTIMEFORMAT="%18:%15:%00 " history
+  218  history | awk '$2 >= "18:15:00"' > history.txt
+  219  tar -czvf archive_Ana.tar.gz * history.txt
+  220  rm archive_Ana.tar.gz
+  221  nano history.txt
+  222  rm history.txt
+  223  history | awk '$2 >= "18:15:00"' > history.txt
+  224  nano history.txt
+  225  tar -czvf archive_YOURNAME.tar.gz *_$(date +"%d.%m.%y") history.txt
+  226  crontab -e
+  227  crontab -l
+  228  crontab -e
+  229  cd /opt/091224-ptm/ASeller
+  230  crontab -e
+  231  crontab -l
+  232  tar -czvf archive_Ana.tar.gz *_$(date +"%d.%m.%y") history.txt
+  233  ls -la
+  234  ls *_$(date +"%d.%m.%y")
+  235  crontab -l
+  236  ls -lt
+  237  ls *_$(date +"%d.%m.%y")
+  238  tar -czvf archive_Ana.tar.gz *_$(date +"%d.%m.%y") history.txt
+  239  crontab -e
+  240  crontab -l
+  241  ls -la
+  242  rm archive_YORNAME.tar.gz
+  243  rm archive_YOURNAME.tar.gz
+  244  ls -la
+  245  crontab -l
+  246  nano history.txt 
+  247  nano task_Ana.sh
+  248  find /opt
+  249  find /optfind /opt
+  250  find /opt/210225-ptm/Yevhen
+  251  cd /opt/210225-ptm/Yevhen
+  252  chmod u+r,g+rw,o+r new1
+  253  touch new1
+  254  ls
+  255  chmod u+r,g+rw,o+r new1
+  256  sudo touch new1
+  257  sudo chmod u+r,g+rw,o+r new1
+  258  chmod 7 file.txt
+  259  sudo touch file.txt
+  260  chmod 744 file.txt
+  261  sudo chown ec2-user:ec2-user file.txt
+  262  chmod 744 file.txt
+  263  ls -ld 
+  264  sudo chown ec2-user:ec2-user
+  265  sudo chown ec2-user:ec2-user .
+  266  ls -l /bin
+  267  nano script.sh
+  268  cat script.sh
+  269  nano script.sh
+  270  chmod +x script.sh
+  271  ./script.sh
+  272  cd /opt/091224-ptm/ASeller
+  273  cd /otp/210225-ptm/Oleg
+  274  cd /opt/210225
+  275  cd
+  276  dc /opt
+  277  cd /opt/
+  278  cd /opt/210225-ptm/Oleg/
+  279  nano script.sh
+  280  ls-l
+  281  ls -l
+  282  ls -la
+  283  nano solo.sh
+  284  ls -la
+  285  ./solo.sh
+  286  chmod u+x solo.sh
+  287  ls -la
+  288  ./solo.sh
+  289  cat solo.sh
+  290  nano solo.sh
+  291  ls -la
+  292  ./solo.sh
+  293  nano solo.sh
+  294  ./solo.sh
+  295  vi solo.sh
+  296  ./solo.sh
+  297  cd
+  298  /opt/210225-ptm/Oleg/solo.sh
+  299  env | grep PATH
+  300  mv /opt/210225-ptm/Oleg/solo.sh /home/ec2-user/bin/solo4
+  301  solo4
+  302  ls
+  303  cd /otp/210225-ptm/Oleg/
+  304  cd /opt/210225-ptm/Oleg/
+  305  nano
+  306  nano /tmp/file.txt
+  307  cd /tmp
+  308  nano file.txt
+  309  tree
+  310  nano file.txt
+  311  nano solo.txt
+  312  tree
+  313  tree /tmp
+  314  cat file.txt
+  315  cat solo.txt
+  316  chmod 7 file.txt
+  317  cat file.txt
+  318  cd /tmp
+  319  nano file1.txt
+  320  tree
+  321  df -h
+  322  df -h | head -n 3 >> /tmp/file1.txt
+  323  cat file1.txt
+  324  chmod 730
+  325  chmod 730 file1.txt
+  326  cd /
+  327  cd
+  328  cd /opt/210225-ptm/Oleg
+  329  nano myfirstbashscript.sh
+  330  tree
+  331  chmod +x myfirstbashscript.sh
+  332  ls -l
+  333  USER="OLEG"
+  334  echo $USER
+  335  nano myfirstbashscript.sh 
+  336  echo "Скрипт запущен из директории: $(pwd)"
+  337  cat myfirstbashscript.sh
+  338  cat myfirstbashscript.sh >> /tmp/file1.txt
+  339  cat /tmp/file1.txt
+  340  history >> /tmp/file1.txt
+  341  cat /tmp/file1.txt
+  342  cd /opt/131224-wdm/Alla
+  343  ls -la
+  344  nano ping.sh
+  345  ./ping.sh
+  346  nano ping.sh
+  347  ls
+  348  cd
+  349  ls
+  350  cd ..
+  351  ls
+  352  cd /opt/
+  353  ls
+  354  cd 210225-p
+  355  cd 210225-ptm/
+  356  ls
+  357  pwd
+  358  export ROMAN_VARIABLE=210225-ptm
+  359  ROMAN_VARIABLE
+  360  echo 'export ROMAN_VARIABLE=210225-ptm' >> ~/.bashrc
+  361  source ~/.bashrc
+  362  nano
+  363  nano hw18
+  364  chmod +x hw18.sh
+  365  ping_script.sh.
+  366  nano ping_script.sh
+  367  nano hw18
+  368  nano ping_script.sh
+  369  chmod +X ping_script.sh
+  370  ./ping_script.sh
+  371  chmod +x ping_script.sh
+  372  ./ping_script.sh
+  373  nano ping_script.sh
+  374  cd /путь/к/вашему/проекту
+  375  cd /.ping_script.sh
+  376  cd /ping_script.sh
+  377  cd hw18.sh
+  378  git init
+  379  nano ping_script.sh
+  380  chmod +x ping_script.sh
+  381  ping_script.sh
+  382  ./ping_script.sh
+  383  nano ping_script.sh
+  384  chmod +x ping_script.sh
+  385  ./ping_script.sh
+  386  8.8.8.8.
+  387  nano ping_script.sh
+  388  chmod +x ping_script.sh
+  389  ./ping_script.sh
+  390  nano ping_script.sh
+  391  chmod +x ping_script.sh
+  392  ./ping_script.sh
+  393  ping -c 3 8.8.8.8
+  394  ./ping_script.sh
+  395  cd /ping_script.sh
+  396  nano ping_script.sh
+  397  free -h | grep Mem:
+  398  ls -la
+  399  cd /opt/
+  400  cd 210225-ptm/
+  401  ls
+  402  cd Roman/
+  403  ls
+  404  free -h | grep Mam: | awk '{print "Total RAM: " $2}' >> .2.txt 
+  405  nano .2.txt 
+  406  df -h
+  407  ps -e
+  408  ps -e | grep -w root | wc -l >> .2.txt 
+  409  nano .2.txt 
+  410  ps -e | grep root | wc -l >> .2.txt 
+  411  nano .2.txt 
+  412  ps -eo user
+  413  ps -eo user | grep root | wc -l >> .2.txt 
+  414  nano .2.txt 
+  415  ps -eo user | grep root '{print "Alle nachme: "}'| wc -l >> .2.txt 
+  416  nano .2.txt 
+  417  echo -n "Количество процессов, запущенных от root: " >> .2.txt 
+  418  ps -eo user | grep root | wc -l >> .2.txt 
+  419  nano .2.txt 
+  420  printenv | grep ^ROMAN_VARIABLE= >> .2.txt 
+  421  ps -eo pid,ppid,cmd | grep "[s]shd -D" | awk '{print "PID " $1 " and PPID " $2}' >> .2.txt 
+  422  nano .2.txt 
+  423  ROMAN_VARIABLE
+  424  ls
+  425  cd Roman/
+  426  ls
+  427  date > .2.txt && echo "Welcome to Amazon server" free
+  428  free
+  429  date > .2.txt && echo "Welcome to Amazon server" 
+  430  ls
+  431  ls -la
+  432  nano .2.txt 
+  433  free
+  434  free -h
+  435  free -h | teil -1 > .2.txt 
+  436  free -h && teil -1 > .2.txt 
+  437  nano .2.txt 
+  438  date > .2.txt && echo "Welcome to Amazon server" 
+  439  date > .2.txt | echo "Welcome to Amazon server" 
+  440  date > .2.txt | echo "Welcome to Amazon server"  >> .2.txt 
+  441  nano .2.txt 
+  442  free -m | tail -n +2 | head -n 1
+  443  free -m | tail -n +1 | head -n 1
+  444  free -m | tail -n +3 | head -n 1
+  445  free -m | tail -n  | head -n 1
+  446  free -m | tail -2 
+  447  free -m | head +2 
+  448  free -m | head  
+  449  free -m | head  | teil -1
+  450  free -m | head  | tail -1
+  451  free -m | head  | tail -2
+  452  free -m | head +2  | tail -2
+  453  free -m | head   | tail -2
+  454  free -m | head   | tail -3
+  455  free -h | grep Mem: | awk '{print "Total RAM: " $2}'
+  456  free -h | grep Mem: | awk '{print "Total RAM: " $2}' >> .2.txt 
+  457  cd /opt/131224-wdm/olenagert
+  458  pwd
+  459  mkdir dir1 dir2
+  460  mkdir dir01 dir02
+  461  nano create_files.sh
+  462  Сделай скрипт исполнимым:
+  463  chmod 744 create_files.sh
+  464  ./create_files.sh
+  465  nano create_files.sh
+  466  ./create_files.sh
+  467  nano move_files.sh
+  468  chmod 744 move_files.sh
+  469  ./move_files.sh
+  470  ls /opt/dir01
+  471  cd dir01
+  472  ls -la
+  473  nano move_files.sh
+  474  nano create_files.sh
+  475  chmod 744 create_files.sh
+  476  nano create_files.sh
+  477  nano move_files.sh
+  478  chmod 744 move_files.sh
+  479  ./move_files.sh
+  480  ls /opt/dir01
+  481  cd /opt/dir1
+  482  ls /opt/dir01
+  483  ls /opt/dir02
+  484  nano create_files.sh
+  485  cd /opt/131224-wdm/olenagert
+  486  mkdir dir01 dir02
+  487  ls /opt/131224-wdm/olenagert
+  488  файла?
+  489  cat dir01
+  490  ls dir01
+  491  ls create_files.sh
+  492  nano create_files.sh
+  493  nano move_files.sh
+  494  ls /opt/131224-wdm/olenagert
+  495  dir01
+  496  12811        19791       27849    4777        7555        dir02
+  497  12818        20016       27866    4783        75.txt      dir1
+  498  12837        2008        27874    4789        76.txt      dir2
+  499  12942        2023        27924    50.txt      7799        dir3rm -r dir01 dir02 dir1 dir2 dir3
+  500  rm -r dir01 dir02 dir1 dir2 dir3
+  501  ls /opt/131224-wdm/olenagert
+  502  rm 57.txt 58.txt 59.txt 60.txt 61.txt 62.txt 63.txt 64.txt 65.txt 66.txt 67.txt 68.txt 69.txt 70.txt 71.txt 72.txt 73.txt 74.txt 75.txt 76.txt 77.txt 78.txt 79.txt 80.txt 81.txt 82.txt 83.txt 84.txt 85.txt 86.txt 87.txt 88.txt 89.txt 90.txt 91.txt 92.txt 93.txt 94.txt 95.txt 96.txt 97.txt 98.txt 99.txt
+  503  ls /opt/131224-wdm/olenagert
+  504  rm 10019 13756 20429 2714 3252 743 100.txt 13905 20588 2746 32525 7467 10102 14432 20694 27592 32530 7555 10120 14498 20771 27776 32592 7799 10_12.03.25 14502 21126 27849 32705 8065 1013 14510 2_12.03.25 27866 3437 8_12.03.25 10317 14646 21260 27874 3504 8486 10370 14770 22292 27924 3922 858 1039 15024 22394 28290 4_12.03.25 8730 10532 15070 22429 28528 4491 8786 10554 15560 22531 28630 4562 8806 10646 15576 22572 28663 4587 8828 10762 1571 23006 28678 4777 9_12.03.25 10773 15823 23042 28837 4783 9229 10864 16171 23067 29090 4789 9311 10882 16334 23769 2914 50.txt 9401 10883 16421 24012 29243 5_12.03.25 9477 1_12.03.25 16423 24070 29331 5128 9835 11360 16499 24098 29443 51.txt 9859 11385 16582 24885 29577 52.txt 9996
+  505  ls /opt/131224-wdm/olenagert
+  506  pwd
+  507  mkdir dir01 dir02
+  508  cd dir01
+  509  for i in {1..100}; do touch "$RANDOM"; done
+  510  cd /opt/131224-wdm/olenagert
+  511  mkdir dir1 dir2
+  512  cd dir1
+  513  for i in {1..100}; do touch $RANDOM; done
+  514  ls dir1
+  515  ls /opt/131224-wdm/olenagert
+  516  cd dir1
+  517  pwd
+  518  cd /opt/131224-wdm/olenagert
+  519  cd dir1
+  520  for i in {1..100}; do touch $RANDOM; done
+  521  ls
+  522  nano move_files.sh
+  523  chmod 744 move_files.sh
+  524  ./move_files.sh
+  525  ls /opt/131224-wdm/olenagert/dir1
+  526  ls /opt/131224-wdm/olenagert/dir2
+  527  history
+  528  history > ~/Downloads/history.txt
+  529  history
+  530  clear
+  531  history
+  532  history 
+  533  cd /
+  534  ls
+  535  cd opt
+  536  ls
+  537  cd 131224-wdm/vladyslav/
+  538  ls
+  539  rm task_vlad.sh
+  540  ls
+  541  touch task_vlad.sh
+  542  ls
+  543  vi task_vlad.sh
+  544  echo task_vlad.sh 
+  545  vi task_vlad.sh
+  546  chmod +x task_vlad.sh
+  547  crontab -e
+  548  ls
+  549  crontab -e
+  550  ls
+  551  cd /opt/131224-wdm/vladyslav/
+  552  ls
+  553  exit
+  554  cd /opt/131224-wdm/vladyslav/
+  555  ls
+  556  crontab -e
+  557  ../
+  558  ls
+  559  cd ../
+  560  ls
+  561  cd .illiashenko_toni/
+  562  ls
+  563  vi task_TONI.sh
+  564  cd ../vladyslav/
+  565  ls
+  566  vi task_vlad.sh 
+  567  .task_vlad.sh
+  568  bash task_vlad.sh
+  569  ls
+  570  crontab -e
+  571  ls
+  572  history > history.txt
+  573  tar -cvzf Vlad_backup.tar.gz ~/Vlad/* history.txt
+  574  tar -cvzf vlad_backup.tar.gz /opt/131224-wdm/vladyslav/*.25 history.txt
+  575  ls
+  576  cd /opt/091224-ptm/ASeller
+  577  mkdir HW15
+  578  cd HW15
+  579  nano sleeper.sh
+  580  chmod +x sleeper.sh
+  581  ./sleeper.sh
+  582  nano sleeper.sh
+  583  ls -la
+  584  nano sleeper.sh
+  585  cat /opt/091224-ptm/ASeller/HW15/system_info.txt
+  586  nano sleeper.sh
+  587  nano system_info.txt 
+  588  nano sleeper.sh
+  589  cd /opt/091224-ptm/ASeller
+  590  touch ping_check.sh
+  591  nano ping_check.sh
+  592  chmod +x ping_check.sh
+  593  ./ping_check.sh
+  594  nano ping_check.sh
+  595  ./ping_check.sh
+  596  nano ping_check.sh
+  597  cd /opt/091224-ptm/ASeller
+  598  mkdir dir1
+  599  mkdir dir2
+  600  cd dir1
+  601  for i in {1..100}; do touch $RANDOM; done
+  602  ls -la
+  603  nano move_files.sh
+  604  chmod +x move_files.sh
+  605  ./move_files.sh
+  606  nano move_files.sh
+  607  chmod +x move_files.sh
+  608  ./move_files.sh
+  609  nano move_files.sh
+  610  chmod +x move_files.sh
+  611  ./move_files.sh
+  612  ls -la
+  613  cd 
+  614  cd /opt/091224-ptm/ASeller
+  615  cd /dir2
+  616  cd dir2
+  617  ls -la
+  618  export SERGIY_VARIABLE=210225-ptm
+  619  echo $SERIY_VARIABLE
+  620  echo $PATH
+  621  SERGIY_VARIABLE='210225-ptm'
+  622  echo $SERIY_VARIABLE
+  623  export SERGIY_VARIABLE=210225-ptm
+  624  echo $SERIY_VARIABLE
+  625  echo $SERIY_VARIABLE cd /opt
+  626  ls -la
+  627  env
+  628  echo $SERIY_VARIABLE
+  629  mkdir -p /opt/210225-ptm/SERGIY/.process_managment
+  630  touch /opt/210225-ptm/SERGIY/.process_managment
+  631  date +%D:%m:%Y > /opt/210225-ptm/SERGIY/.process_managment
+  632  rm -r  /opt/210225-ptm/SERGIY/.process_managment
+  633  touch /opt/210225-ptm/SERGIY/.process_managment
+  634  date +%D:%m:%Y > /opt/210225-ptm/SERGIY/.process_managment
+  635  cd /opt/210225-ptm/SERGIY/
+  636  ls -la
+  637  echo "Welcome to Amazon server"
+  638  echo "Welcome to Amazon server\!"
+  639  echo "Welcome to Amazon server" .process_managment
+  640  echo "Welcome to Amazon server" >> .process_managment
+  641  free
+  642  free -m
+  643  free -m >> .process_managment
+  644  ps -ef
+  645  ps -ef | grep "root"
+  646  ps -ef | grep "root" >> .process_managment
+  647  env |grep "SERGIY_VARIABLE"
+  648  env |grep "SERGIY_VARIABLE" >> .process_managment
+  649  sshd -D
+  650  top
+  651  ps
+  652  ps -ef
+  653  ps -ef | grep "/usr/sbin/sshd -D"
+  654  cd /opt/210225-ptm/SERGIY/
+  655  echo .process_managment 
+  656  cat .process_managment 
+  657  ps -ef | grep "/usr/sbin/sshd -D"
+  658  ps -ef | grep "/usr/sbin/sshd -D" | echo PID awk 2
+  659  ps -ef | grep "/usr/sbin/sshd -D" | awk 2
+  660  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print $2
+  661  ps -ef | grep "/usr/sbin/sshd -D" | awk{'print$2'}
+  662  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2'}
+  663  ps -ef | grep "/usr/sbin/sshd -D" | echo PID awk {'print$2'}
+  664  ps -ef | grep "/usr/sbin/sshd -D" | echo "PID" awk {'print$2'}
+  665  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2'}
+  666  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2', 'print$3'}
+  667  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2,3'}
+  668  ps -ef | grep "/usr/sbin/sshd -D" | awk {PID 'print$2'}
+  669  ps -ef | grep "/usr/sbin/sshd -D" | awk {'PID print$2'}
+  670  ps -ef | grep "/usr/sbin/sshd -D" | awk {'PID, print$2'}
+  671  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2, PID'}
+  672  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2', 'print$3'}
+  673  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2'}
+  674  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2' 'print$3'}
+  675  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print$2'}
+  676  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print $2, $3'}
+  677  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print PID $2, PPID $3'}
+  678  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print "PID" $2, "PPID" $3'}
+  679  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print "PID: " $2, "PPID: " $3'}
+  680  ps -ef | grep "/usr/sbin/sshd -D" | awk {'print "PID: " $2, "PPID: " $3'} >> .process_managment 
+  681  cd  /opt/210225-ptm/SERGIY/
+  682  cat .process_managment 
+  683  exit
+  684  cd 
+  685  cd /opt/
+  686  cd 210225-ptm
+  687  cd SERGIY
+  688  cd /opt/
+  689  cd 210225-ptm
+  690  cd SERGIY
+  691  ls
+  692  ls -la
+  693  cd /opt/131224-wdm/AlexN
+  694  cd ..
+  695  ls -la
+  696  cd NikIst/
+  697  ls -la
+  698  cat ping_monitor.sh 
+  699  cd ..
+  700  read -p
+  701  cd AlexN
+  702  nano script_ping.sh
+  703  ls -la
+  704  chmod 744 pingscript.sh 
+  705  ls -la
+  706  ./pingscript.sh 
+  707  chmod script_ping.sh 
+  708  chmod 744 script_ping.sh 
+  709  ./script_ping.sh 
+  710  ls -la
+  711  ./script_ping.sh 
+  712  nano script_ping.sh 
+  713  ./script_ping.sh 
+  714  nano script_ping.sh 
+  715  ./script_ping.sh 
+  716  nano script_ping.sh 
+  717  ./script_ping.sh 
+  718  nano script_ping.sh 
+  719  ./script_ping.sh 
+  720  nano script_ping.sh 
+  721  ./script_ping.sh 
+  722  ~
+  723  ps -ef | grep "root"
+  724  ps -ef | grep "root" | wc -l
+  725  export DANIIL_VARIABLE="210225-ptm" && date > /opt/210225-ptm/daniil/.process_management && echo ""
+  726  cat $DANIIL_VARIABLE
+  727  echo $DANIIL_VARIABLE
+  728  ls -a /opt/210225-ptm/daniil
+  729  cat /opt/210225-ptm/daniil/process_management
+  730  cat /opt/210225-ptm/daniil/.process_management
+  731  echo "Welcome to Amazon server" >> /opt/210225-ptm/daniil/.process_management
+  732  free -f
+  733  free -h
+  734  echo /proc/meminfo
+  735  cat /proc/meminfo
+  736  cd /opt
+  737  ls
+  738  cd 041124-wde
+  739  mkdir Yevheniia
+  740  cd Yevheniia
+  741  mkdir even odd
+  742  for i in {1..100}; do touch "$RANDOM"; done
+  743  nano scriptFor.sh
+  744  chmod +x scriptFor.sh
+  745  ./scriptFor.sh
+  746  cd /opt/041124-wde/Yevheniia
+  747  rm -f *
+  748  cd /opt/041124-wde/Yevheniia/odd
+  749  for i in {1..100}; do touch "$RANDOM"; done
+  750  cd /opt/041124-wde/Yevheniia
+  751  nano scriptFor.sh
+  752  chmod +x scriptFor.sh
+  753  ./scriptFor.sh
+  754  ls /opt/041124-wde/Yevheniia/odd
+  755  ls odd | wc -l
+  756  ls even | wc -l
+  757  nano /tmp/file.txt
+  758  df -h | head -n 3 >> /tmp/file.txt
+  759  chmod g+wx /tmp/file.txt
+  760  chmod o-rwx /tmp/file.txt
+  761  nano ~/myfirstbashscript.sh
+  762  cat ~/myfirstbashscript.sh >> /tmp/file.txt
+  763  history >> /tmp/file.txt
+  764  ls -l /tmp/file.txt
+  765  df -h | head -n 3 >> /tmp/fileMalaiMihail.txt 
+  766  nano /tmp/fileMalaiMihail.txt
+  767  df -h | head -n 3 >> /tmp/fileMalaiMihail.txt
+  768  chmod g+wx /tmp/fileMalaiMihail.txt
+  769  chmod o-rwx /tmp/fileMalaiMihail.txt
+  770  nano ~/myfirstbashscript.sh
+  771  chmod +x ~/myfirstbashscript.sh
+  772  sudo chown $USER:$USER /tmp/fileMalaiMihail.txt
+  773  cat ~/myfirstbashscript.sh >> /tmp/fileMalaiMihail.txt
+  774  history > my_history.txt
+  775  cat my_history.txt >> /tmp/fileMalaiMihail.txt
+  776  rm my_history.txt
+  777  export_file/tmp/fileMalaiMihail.txt
+  778  export_file/tmp/file.txt
+  779  grep MemTotal /proc/meminfo >> /opt/210225-ptm/daniil/.process_menagement
+  780  ps -U
+  781  ps -u
+  782  ps aux | grep "root"
+  783  exit
+  784  ls -l
+  785  ls -l /bin
+  786  cd /opt/131224-wdm/
+  787  ls
+  788  mkdir Sadvakassof
+  789  cd sadvakassof/
+  790  ls
+  791  >>test.txt
+  792  ls-l
+  793  >> test.txt
+  794  ls -l
+  795  cd sadvakassof/
+  796  mkdir Sadvakassof/
+  797  cd sadvakassof/
+  798  cd /opt/210225-ptm/daniil
+  799  ls -a
+  800  cat .process_management
+  801  grep MemTotal /proc/meminfo >> .process_management 
+  802  cat .process_management
+  803  rm .process_menagement
+  804  cat .process_management
+  805  ps aux | grep "root" | wc | echo
+  806  awk
+  807  pss aux | grep "root" | wc -l >> .process_management
+  808  ps aux | grep "root" | wc -l >> .process_management
+  809  cat .process_management 
+  810  nano .process_management 
+  811  env
+  812  echo $DANIIL_VARIABLE
+  813  export DANIIL_VARIABLE="210225-ptm"
+  814  echo $DANIIL_VARIABLE
+  815  env | grep DANIIL_VARIABLE >> .process_management 
+  816  cat .process_management 
+  817  ps aux
+  818  ps aux | grep /usr/sbin/sshd
+  819  top | grep /usr/sbin/sshd
+  820  ps -ef | grep /usr/sbin/sshd
+  821  top
+  822  ps -ef | grep "/usr/sbin/sshd -D"
+  823  ps -ef | grep "/usr/sbin/sshd -D" | tail -1
+  824  ps -ef | grep "/usr/sbin/sshd -D" | tail -1 | awk '{print "PID" $1 "PPID" $2}' >> .process_management 
+  825  cat .process_management 
+  826  ps -ef | grep "/usr/sbin/sshd -D" | tail -1 | awk '{print "PID: " $2 " PPID: " $3}' >> .process_management && cat .process_management 
+  827  vi .process_management 
+  828  cat .process_management 
+  829  pwd
+  830  exit
+  831  ls /opt
+  832  ls /opt/210225-ptm
+  833  mkdir -p /opt/210225-ptm/ruslan && ls /opt/210225-ptm 
+  834  export RUSLAN_VARIABLE= "210225-ptm" 
+  835  export RUSLAN_VARIABLE = "210225-ptm" 
+  836  export RUSLAN_VARIABLE="210225-ptm" 
+  837  date > /opt/210225-ptm/ruslan/.process_management 
+  838  echo "Welcome to Amazon server" >> /opt/210225-ptm/ruslan/.process_management
+  839  free -m
+  840  grep Mem | free -m
+  841  grep Mem | free -h
+  842  free -h | grep Mem
+  843  free -h | grep Mem >> /opt/210225-ptm/ruslan/.process_management
+  844  cat /opt/210225-ptm/ruslan/.process_management
+  845  ps -ef
+  846  pf -ef | grep root >> /opt/210225-ptm/ruslan/,process_management
+  847  ps -ef | grep root >> /opt/210225-ptm/ruslan/,process_management
+  848  nano /opt/210225-ptm/ruslan/,process_management
+  849  cat /opt/210225-ptm/ruslan/,process_management
+  850  ls -a /opt/210225-ptm/ruslan
+  851  cd /opt/210225-ptm/ruslan
+  852  ls -a
+  853  rm ,process_management
+  854  cat .process_management
+  855  free -h
+  856  nano
+  857  tree /proc
+  858  cat /proc/meminfo
+  859  vi .process_management 
+  860  ps aux |grep root | wc -l >> .process_management
+  861  vi .process_management 
+  862  env | grep RUSLAN_VARIABLE >> /opt/210225-ptm/ruslan/.process_management 
+  863  cat /opt/210225-ptm/ruslan/.process_management 
+  864  vi .process_management 
+  865  vi .process_management
+  866  cat /opt/210225-ptm/ruslan/.process_management 
+  867  ps aux | grep /user/sbin/sshd 
+  868  ps aux | grep /user/sbin/sshd -D
+  869  ps aux | grep /usr/sbin/sshd 
+  870  ps -ef
+  871  ps -ef | grep /usr/sbin/sshd 
+  872  ps -ef | grep "/usr/sbin/sshd -D" |tail -1 | awk '{print "PID: " $2 "PPID: " $3}' >> .process_management  
+  873  cat .process_management 
+  874  vi .process_management 
+  875  ps -ef | grep "/usr/sbin/sshd -D" |tail -1 | awk '{print "PID: " $2 "PPID: " $3}' >> .process_management  pwd
+  876  pwd
+  877  cat .process_management 
+  878  pwd
+  879  cd /opt/210225-ptm/Oleg
+  880  nano tor.sh
+  881  ls -la
+  882  chmod 777 tor.sh
+  883  ls -la
+  884  ./tor.sh
+  885  nano tor.sh
+  886  ./tor.sh
+  887  /opt/240125-wde/cristina_buga/
+  888  cd /opt/240125-wde/cristina_buga/
+  889  rm file.txt
+  890  clear
+  891  nano /tmp/file.txt
+  892  df -h | head -n 3 >> /tmp/file.txt
+  893  ls -l /tmp/file.txt
+  894  chmod /tmp/file.txt
+  895  chmod --help
+  896  chmod file.txt
+  897  ls -ld /tmp
+  898  nano /tmp/newfile.txt
+  899  clear
+  900  nano /tmp/newfile.txt
+  901  df -h | head -n 3 >> /tmp/newfile.txt
+  902  chmod 730 /tmp/newfile.txt
+  903  ls -la
+  904  ls -l /tmp
+  905  chmod 030 /tmp/newfile.txt 
+  906  ls -l /tmp
+  907  nano tor.sh
+  908  cd /opt/210225-ptm/Oleg
+  909  nano tor.sh
+  910  ls -la
+  911  ./tor.sh
+  912  nano tor.sh
+  913  ./tor.sh
+  914  env | grep PATH
+  915  mv /opt/210225-ptm/Oleg/tor.sh /home/ec2-user/bin/solo4
+  916  solo4
+  917  PATH
+  918  cd opt
+  919  cd /opt
+  920  tree
+  921  cd /210225-ptm
+  922  cd /opt/210225-ptm
+  923  tree
+  924  echo 'export XHUMANALEX_VARIABLE="xhumanalex"' >> ~/.bashrc
+  925  source ~/.bashrc
+  926  df -h | head -n 3
+  927  cd /tmp
+  928  ls
+  929  mkdir -p /opt/210225-ptm/xhumanalex
+  930  touch /opt/210225-ptm/xhumanalex/.process_management
+  931  date > /opt/210225-ptm/xhumanalex/.process_management
+  932  echo "Welcome to Amazon server" >> /opt/210225-ptm/xhumanalex/.process_management
+  933  free -h | grep Mem >> /opt/210225-ptm/xhumanalex/.process_management
+  934  ps -u root --no-headers | wc -l >> /opt/210225-ptm/xhumanalex/.process_management
+  935  printenv | grep XHUMANALEX_VARIABLE >> /opt/210225-ptm/xhumanalex/.process_management
+  936  ps -ef | grep "[s]shd -D" | awk '{print "PID "$2" PPID "$3}' >> /opt/210225-ptm/xhumanalex/.process_management
+  937  cat /opt/210225-ptm/xhumanalex/.process_management
+  938  cd /tmp
+  939  ls -a
+  940  nano /tmp/xhumanalex_file.txt
+  941  ls
+  942  chmod g+wx /tmp/file.txt
+  943  chmod g+wx /tmp/xhumanalex_file.txt
+  944  chmod o-rwx /tmp/xhumanalex_file.txt
+  945  nano /opt/210225-ptm/xhumanalex/myfirstbashscript.sh
+  946  chmod +x /opt/210225-ptm/xhumanalex/myfirstbashscript.sh
+  947  cat /opt/210225-ptm/xhumanalex/myfirstbashscript.sh >> /tmp/xhumanalex_file.txt
+  948  history >> /tmp/xhumanalex_file.txt
+  949  export_file /tmp/xhumanalex_file.txt
+  950  nano .ssh/authorized_keys
+  951  exit
+  952  cat
+  953  cd /opt/210225-ptm/mark
+  954  exit
+  955  cd /opt/
+  956  ls
+  957  cd /opt/210225-ptm
+  958  ls
+  959  cd ../
+  960  ls
+  961  cd ./210225-pm
+  962  ls
+  963  cd /pl
+  964  cd ./platonova/
+  965  ls
+  966  cd /opt
+  967  rm /opt/210225-pm
+  968  sudo su
+  969  mkdir /opt/2102025-ptm/Daulet
+  970  mkdir -p /opt/2102025-ptm/Daulet
+  971  mkdir -p /opt/210225-ptm/Daulet
+  972  ls -la
+  973  cd /opt
+  974  ls
+  975  ls -la
+  976  cd /210225-ptm
+  977  cd ..
+  978  cd /opt
+  979  cd  /210225-ptm
+  980  cd  210225-ptm
+  981  ls
+  982  ls -al
+  983  cd /opt/240125-wde
+  984  ls -al
+  985  cd
+  986  pwd
+  987  cd /opt/240125-wde/pavel_liutskanov/
+  988  ls -la
+  989  exit
+  990  cd /tmp
+  991  touch file.txt
+  992  df -h 
+  993  df -h | head 3
+  994  df -h | head -3
+  995  df -h | head -3 >> file.txt
+  996  ls
+  997  ls -al
+  998  exit
+  999  cd /tmp
+ 1000  nano file_platonova.txt
+ 1001  df -h | head -3 >> file_platonova.txt
+ 1002  cat file_platonova.txt 
+ 1003  ls -l
+ 1004  chmod g+x file_platonova.txt 
+ 1005  ls -l
+ 1006  chmod o-r file_platonova.txt 
+ 1007  ls -l
+ 1008  cd /opt/210225-ptm/platonova/
+ 1009  nano myfirstbashscript.sh
+ 1010  ls -l
+ 1011  mv myfirstbashscript.shes myfirstbashscript.sh
+ 1012  chmod u+x myfirstbashscript.sh 
+ 1013  ls -l
+ 1014  nano myfirstbashscript.sh
+ 1015  ./myfirstbashscript.sh 
+ 1016  nano myfirstbashscript.sh
+ 1017  ./myfirstbashscript.sh 
+ 1018  cat myfirstbashscript.sh >> /tmp/file_platonova.txt 
+ 1019  cat /tmp/file_platonova.txt 
+ 1020  history >> /tmp/file_platonova.txt 
