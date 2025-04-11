@@ -37,13 +37,8 @@ WHERE
  
 /* 3 Выведите все столбцы таблицы order_details, а также дополнительный столбец payment_method из таблицы purchase_orders.
  Оставьте только заказы, для которых известен payment_method. */
-SELECT 
-    od.*,
-    p.id,
-    pod.product_id,
-    po.id,
-    pod.purchase_order_id,
-    po.payment_method
+#SELECT  od.*, p.id, pod.product_id, po.id, pod.purchase_order_id, po.payment_method
+SELECT  od.*, po.payment_method
 FROM
     order_details AS od
         JOIN
