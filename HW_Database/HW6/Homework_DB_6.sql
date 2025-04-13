@@ -53,14 +53,15 @@ WHERE
 
 
 # variant 2 (связь через другую таблицу)
-SELECT  od.*, p.id, pod.product_id, pod.purchase_order_id, po.id, po.payment_method
+#SELECT  od.*, p.id, pod.product_id, pod.purchase_order_id, po.id, po.payment_method
+SELECT  od.*, po.payment_method
 FROM
     order_details AS od
     join products as p			# 58 rows
     on od.product_id=p.id
     join purchase_order_details as pod  # 139 rows
     on p.id=pod.product_id
-	left join purchase_orders as po
+	join purchase_orders as po
     on pod.purchase_order_id=po.id 	#139 rows
 WHERE
    payment_method IS NOT NULL;	# 3 rows
