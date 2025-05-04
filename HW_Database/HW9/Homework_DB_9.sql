@@ -93,7 +93,7 @@ where rn = 1;  # 28 rows
  Сделайте то же самое с помощью GROUP BY */
  # variant 1 mit partition
  select round((quantity*unit_cost),2) as kost_product_id, 
- sum(round((quantity*unit_cost),2)) over (PARTITION BY purchase_order_id) as sum_kost_order_id,
+ round(sum(quantity*unit_cost) over (PARTITION BY purchase_order_id),2) as sum_kost_order_id,
  pod.* 
  from purchase_order_details as pod
  order by purchase_order_id, product_id; # 90 - 5370, 91 - 4800,...
@@ -101,15 +101,15 @@ where rn = 1;  # 28 rows
  # variant 1 mit GROUP BY
  select pod.purchase_order_id,
 # group_concat(product_id) as "List von product_id",
- round((quantity*unit_cost),2) as kost_product_id, 
- sum(round((quantity*unit_cost),2)) as sum_kost_order_id
+ #round((quantity*unit_cost),2) as kost_product_id, 
+ round(sum(quantity*unit_cost),2) as sum_kost_order_id,
+ round((quantity*unit_cost),2) as kost_product_id
  from purchase_order_details as pod
- group by pod.purchase_order_id
+ group by 1	# 28 rows,  90 - 5370, 91 - 4800,...
+#group by 1, 2 # 49 rows, !! группировка по kost_product_id НЕ подходит
  order by purchase_order_id; 	# 28 rows, 90 - 5370, 91 - 4800,...
  
- 
-
-/* 4 Посчитайте количество заказов по дате получения и 
+ /* 4 Посчитайте количество заказов по дате получения и 
 posted_to_inventory (!!!! как это поле использовать?!!!).
  Если оно превышает 1 то выведите '>1' в противном случае '=1'
 Выведите purchase_order_id, date_received и вычисленный столбец */
@@ -133,8 +133,9 @@ CASE
 	when count(purchase_order_id) > 1 then '>1'
     else '=1' 
     end  as "count_orders превышает 1" 
+   # cast(date_received as date),
 FROM purchase_order_details as pod
-GROUP BY cast(date_received as date)
+GROUP BY cast(date_received as date)	# если я добавляю сюда еще столбцы, то меянется результат,который мне не пододит!!
 order by purchase_order_id;		# 7 rows
 
 
