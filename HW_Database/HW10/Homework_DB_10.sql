@@ -4,6 +4,7 @@
 последующей inventory_id по убыванию quantity. */
 select
 od.product_id, od.inventory_id, od.quantity,
+LAG(inventory_id) over (order by quantity DESC) as "предыдущий inventory_id по убыванию quantity" ,
 LEAD(inventory_id) over (order by quantity DESC) as "последующей inventory_id по убыванию quantity" 
 from order_details as od;
 
